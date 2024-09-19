@@ -9,7 +9,7 @@ export default function LoginScreen({ navigation }) {
 
   const handleLogin = () => {
     if (email === 'admin' && password === 'admin') {
-      navigation.navigate('TodoList');
+      navigation.navigate('Menu');
     } else {
       Alert.alert('Erro', 'Credenciais inválidas.');
     }

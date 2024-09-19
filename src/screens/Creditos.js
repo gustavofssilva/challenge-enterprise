@@ -10,17 +10,10 @@ export default function HomeScreen({ navigation }) {
       style={styles.background}
     >
       <View style={styles.container}>
-        <Text style={styles.header}>Tela Inicial</Text>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Login')}>
-          <Text style={styles.buttonText}>Login</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Register')}>
-          <Text style={styles.buttonText}>Cadastrar</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Creditos')}>
-          <Text style={styles.buttonText}>Créditos</Text>
-        </TouchableOpacity>
-        
+        <Text style={styles.header}>Desenvolvedores:</Text>
+        <Text style={styles.header}>Gustavo Felix Dos Santos Silva - RM85378</Text>
+        <Text style={styles.header}>Pedro Augusto Rodrigues Pereira - RM95989 </Text>
+        <Text style={styles.header}>Raphael Frade dos Santos - RM55745</Text>
       </View>
     </ImageBackground>
   );

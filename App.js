@@ -5,7 +5,8 @@ import { TouchableOpacity, Text } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
 import LoginScreen from './src/screens/LoginScreen';
 import RegisterScreen from './src/screens/RegisterScreen';
-import TodoListScreen from './src/screens/TodoListScreen';
+import Creditos from './src/screens/Creditos';
+import Menu from './src/screens/Menu';
 
 const Stack = createStackNavigator();
 
@@ -36,9 +37,11 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator screenOptions={defaultScreenOptions}>
         <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Creditos" component={Creditos} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Register" component={RegisterScreen} />
-        <Stack.Screen name="TodoList" component={TodoListScreen} />
+        <Stack.Screen name="Menu" component={Menu} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );
