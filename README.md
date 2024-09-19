@@ -15,6 +15,10 @@
 <pre><code>git clone https://github.com/gustavofssilva/challenge-enterprise.git
 </code></pre>
 
+<p>Entre na pasta do diretório</p>
+<pre><code>cd challenge-enterprise
+</code></pre>
+
 <h2>📦 Instalação das Dependências</h2>
 <p>Instale as dependências do projeto usando Yarn:</p>
 <p><strong>Com Yarn:</strong></p>
@@ -23,9 +27,7 @@
 <h2>🏃‍♂️ Executar o Projeto</h2>
 <pre><code>yarn start</code></pre>
 <p>Abra o aplicativo Expo Go no seu dispositivo móvel e digitalize o QR code exibido no terminal para visualizar o aplicativo.</p>
-<p>Caso queira abrir em Web, aperte a letra W após iniciar o app.</p>
-
-<h2>⚙️ Configuração Adicional</h2>
+<p>Caso queira abrir em Web, aperte a letra W dentro do terminal após o app iniciar.</p>
 
 <h1>Descrição Técnica do App</h1>
 
