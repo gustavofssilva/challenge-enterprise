@@ -33,7 +33,7 @@
 
 <h2>1. Estrutura de Navegação 🚀</h2>
 <ul>
-    <li>O aplicativo utiliza a biblioteca <strong>React Navigation</strong> para gerenciar a navegação entre diferentes telas (Home, Login, Cadastro, Créditos).</li>
+    <li>O aplicativo utiliza a biblioteca <strong>React Navigation</strong> para gerenciar a navegação entre diferentes telas (Home, Login, Cadastro, Menu, Créditos).</li>
     <li>A navegação é baseada em pilhas (<strong>stack navigation</strong>), permitindo transições suaves entre as telas e a capacidade de voltar às telas anteriores.</li>
 </ul>
 
@@ -58,15 +58,27 @@
     <li>Inclui um botão <strong>"Voltar"</strong> para retornar à tela anterior.</li>
 </ul>
 
-<h2>5. Estilização 🎨</h2>
+<h2>5. Tela de Menu (Menu) 📝</h2>
+<ul>
+    <li>Tela contem 4 botões com aplicativos diarios que pode te auxiliar durante a jornada de trabalho </li>
+    <li>Inclui um botão <strong>"Voltar"</strong> para retornar à tela anterior.</li>
+</ul>
+
+<h2>6. Tela de Créditos (Creditos) 📝</h2>
+<ul>
+    <li>Tela com os nomes dos desenvolvedores do projeto </li>
+    <li>Inclui um botão <strong>"Voltar"</strong> para retornar à tela anterior.</li>
+</ul>
+
+<h2>7. Estilização 🎨</h2>
 <ul>
     <li>Utiliza componentes do <strong>React Native</strong> para estilização, como <strong>View</strong>, <strong>Text</strong>, <strong>TextInput</strong> e <strong>TouchableOpacity</strong>.</li>
     <li>A aplicação tem uma aparência moderna e responsiva, utilizando <strong>Dimensions</strong> para garantir que os elementos se ajustem a diferentes tamanhos de tela.</li>
 </ul>
 
-<h2>6. Acesso a Links Externos 🔗</h2>
+<h2>8. Acesso a Links Externos 🔗</h2>
 <ul>
-    <li>A <strong>HomeScreen</strong> inclui botões que redirecionam para links externos, permitindo que os usuários acessem rapidamente redes sociais ou outros sites relevantes.</li>
+    <li>A <strong>MenuScreen</strong> inclui botões que redirecionam para links externos, permitindo que os usuários acessem rapidamente aplicativos da sua jornada de trabaho ou outros sites relevantes.</li>
 </ul>
 
 
